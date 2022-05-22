@@ -1,37 +1,9 @@
-# Description
-Be gently but clearly reminded to take breaks during work.
+# Mission
+How often do you find yourself working at your desk for hours, forgetting to eat, holding off going to the bathroom, and feeling terrible in your body?
+
+The mission of the WildlyMe app is to empower us to take care of ourselves while doing attention-intensive tasks.
+
+To read more about the mission, check out the wiki: [Mission](https://github.com/WildlyMe/App/wiki/Mission).
 
 # Development
-Run all commands from the project root
-
-### Setup
-```sh
-npm install
-```
-
-### Run tests
-```sh
-npx jest
-```
-
-### Run on phone/emulator
-Start "Mono" terminal
-```sh
-npx react-native start
-```
-
-Run on phone
-```sh
-npx react-native run-android
-```
-
-##### Reload
-Either press "r" in "Mono" terminal, or
-```sh
-adb shell input text "RR"
-```
-
-### Install on phone
-```sh
-npx react-native run-android --variant=release
-```
+See [Development.md](Development.md).
