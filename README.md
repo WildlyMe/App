@@ -9,12 +9,24 @@ Run all commands from the project root
 npm install
 ```
 
+### Run tests
+```sh
+npx jest
+```
+
 ### Run on phone/emulator
+Start "Mono" terminal
+```sh
+npx react-native start
+```
+
+Run on phone
 ```sh
 npx react-native run-android
 ```
 
 ##### Reload
+Either press "r" in "Mono" terminal, or
 ```sh
 adb shell input text "RR"
 ```
