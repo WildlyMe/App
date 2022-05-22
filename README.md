@@ -9,7 +9,7 @@ Run all commands from the project root
 npm install
 ```
 
-### Run on phone
+### Run on phone/emulator
 ```sh
 npx react-native run-android
 ```
@@ -17,4 +17,9 @@ npx react-native run-android
 ##### Reload
 ```sh
 adb shell input text "RR"
+```
+
+### Install on phone
+```sh
+npx react-native run-android --variant=release
 ```
